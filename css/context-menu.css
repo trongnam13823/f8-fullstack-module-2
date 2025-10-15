@@ -1,0 +1,28 @@
+.context-menu {
+    display: none;
+    overflow: hidden;
+    background-color: var(--bg-quaternary);
+    padding: 4px;
+    border-radius: var(--radius-sm);
+    min-width: 200px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.context-menu-item {
+    font-size: 14px;
+    color: var(--text-primary);
+    cursor: pointer;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+    text-wrap: nowrap;
+    border-radius: var(--radius-sm);
+    padding: 12px;
+}
+
+.context-menu-item:hover {
+    background-color: var(--quaternary-hover);
+}
